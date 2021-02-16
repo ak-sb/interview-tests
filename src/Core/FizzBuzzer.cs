@@ -12,7 +12,7 @@ namespace Core
         /// </summary>
         /// <param name="start">Inclusive start point.</param>
         /// <param name="end">Inclusive end point.</param>
-        /// <returns></returns>
+        /// <returns>FizzBuzz sequence.</returns>
         public static IEnumerable<string> Generate(int start, int end)
         {
             return null;
