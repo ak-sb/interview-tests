@@ -3,9 +3,9 @@
     public static class ModeCharacterFinder
     {
         /// <summary>
-        /// Returns the character with most occurences in the text.
+        /// Returns the character with most occurrences in the text.
         /// Case is ignored.
-        /// If there are multiple characters with equal highest occurence,
+        /// If there are multiple characters with equal highest occurrence,
         /// the one that appeared first in the text is returned.
         /// https://en.wikipedia.org/wiki/Mode_(statistics)
         /// </summary>
