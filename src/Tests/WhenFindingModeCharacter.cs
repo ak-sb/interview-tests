@@ -15,7 +15,7 @@ namespace Tests
 
         [TestCase("Aab", 'a')]
         [TestCase("Baabb", 'b')]
-        public void ShouldIgnoreCase(string text, char mode)
+        public void ShouldIgnoreCaseAndReturnLowercase(string text, char mode)
         {
             Assert.AreEqual(mode, ModeCharacterFinder.Find(text));
         }

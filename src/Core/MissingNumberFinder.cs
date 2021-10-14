@@ -9,6 +9,7 @@ namespace Core
         /// </summary>
         /// <param name="numbers">Consecutive sequence of numbers with one missing. Not in order.</param>
         /// <returns>The missing number.</returns>
+        /// <example>Find(new[] {5, 2, 3}) returns 4</example>
         public static int Find(IEnumerable<int> numbers)
         {
             return 0;
